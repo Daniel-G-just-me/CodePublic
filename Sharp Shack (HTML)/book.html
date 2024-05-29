@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Sharp Shack</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/000/627/851/original/vector-hotel-icon-symbol-sign.jpg">
+    </head>
+    <body>
+        <div class ="banner">
+            <div class="navbar">
+                <h1 class="logo">Sharp Shack</h1>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="prices.html">Room Prices</a></li>
+                    <li><a href="book.html">Book a Room</a></li>
+                </ul>
+            </div>
+            <div class="content">
+				<h1>Book a Room:</h1>
+				<br>
+				<form>
+					<fieldset>
+						<label for="fname">Full name:</label><br>
+						<input type="text" id="fname" name="fname"><br>
+						<br>
+						<input type="radio" id="PS" name="fav_language" value="PS">
+						<label for="PS">Penthouse Sweet</label><br>
+						<input type="radio" id="MS" name="fav_language" value="MS">
+						<label for="MS">Master Sweet</label><br>
+						<input type="radio" id="2B" name="fav_language" value="2B">
+						<label for="2B">Double Bed Room</label> <br>
+						<br>
+						<label for="SB">Start of Reservastion:</label>
+						<input type="date" id="SB" name="SB">
+						<label for="EB">End of Reservastion:</label>
+						<input type="date" id="EB" name="EB">
+						<input type="submit" value="Submit">
+					</fieldset>
+				</form>
+				<br>
+				<br>
+				<div>
+					<button type="button" onclick="document.location ='main.html'"><span></span>Home Page</button>
+				</div>
+            </div>
+        </div>
+</html>
